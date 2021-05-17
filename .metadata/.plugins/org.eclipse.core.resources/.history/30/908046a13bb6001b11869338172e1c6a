@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class num1 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int a[]= new int[1000];
+		int b[]= new int[1000];
+		int c[]= new int[1000];
+		int i = 0;
+		while(true) {
+			a[i] = scanner.nextInt();
+			b[i] = scanner.nextInt();
+			
+			if((a[i] ==0) && (b[i] == 0))
+				break;				
+			
+			c[i] = a[i] + b[i];
+			
+			i++;
+		}
+		int l = 0;
+		while(l <- i) {
+			System.out.println(c[l]);
+		}
+		
+	}
+}

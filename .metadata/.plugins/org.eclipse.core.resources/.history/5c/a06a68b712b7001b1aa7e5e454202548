@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Practice {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String str = scanner.next();
+		System.out.println("str.charAt(2)를 통해 index 2 문자 하나 출력:" +str.charAt(2));
+		
+		String str1 = scanner.next();
+		str.concat(str1);
+		System.out.println("str.concat(str1) 통해 문자열 붙이기 연산 후 str:" + str);
+		
+	}
+}
